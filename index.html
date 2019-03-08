@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Holden's Address Book</title>
+</head>
+
+<body>
+    <div class='topBox'>
+        
+        <div id='contactList'>
+            <h3>My Contacts</h3>
+            <input class='parts' id='contactName' placeholder='contact name'>
+            <input class='parts' id='contactEmail' placeholder='contact email'>
+            <input class='parts' id='contactPhoneNumber' placeholder='contact phone number'>
+            <select class='parts' id="contactRelation" name="Relation">
+                <option value="Family">Family</option>
+                <option value="Friend">Friend</option>
+                <option value="Coworker">Coworker</option>
+            </select>
+            <button class='parts' id='addButton'>add</button>
+        </div>
+        <div class='opBox'></div>
+    </div>
+    <div id='addressBookSection'></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
